@@ -1,1 +1,104 @@
-build/
+# .gitignore for a C / C++ project using CMake
+
+# Generated build directories
+/build/
+/build-*/
+cmake-build-*/
+
+# CMake files and generated build system files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+InstallManifest.txt
+CMakeScripts/
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Compilation database (may be useful to keep for some workflows; ignored by default)
+compile_commands.json
+
+# Object, archive and binary files
+*.o
+*.obj
+*.lo
+*.la
+*.lai
+*.al
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Debugging and profiling
+*.pdb
+*.ilk
+*.idb
+*.dSYM/
+*.dwo
+*.dwp
+
+# Coverage
+*.gcno
+*.gcda
+*.gcov
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Package and distribution directories
+dist/
+dist-*/
+_install/
+install/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.suo
+*.user
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+# Tags and cscope
+tags
+cscope.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Misc
+.coverage
+*.cover
+
+# If you want to keep generated headers or compile_commands.json in the repo,
+# remove those entries above.
